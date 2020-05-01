@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Mar 08 13:01:26 IST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0169-5c36-c163-000004eddda0 
+on database directory I:\PROGRAM\JavaFX\COMPLETE PROJECT\Library AssistantX_v3\database with class loader sun.misc.Launcher$AppClassLoader@7d4991ad 
+Loaded from file:/I:/PROGRAM/JavaFX/COMPLETE%20PROJECT/Library%20AssistantX_v3/library%20assistantX_V3.exe
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=I:\PROGRAM\JavaFX\COMPLETE PROJECT\Library AssistantX_v3
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

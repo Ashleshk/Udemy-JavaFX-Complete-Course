@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>I:\PROGRAM\JavaFX\COMPLETE PROJECT\Library AssistantX_v2\library_assistantX_V2.jar</jar>
+  <outfile>I:\PROGRAM\JavaFX\COMPLETE PROJECT\Library AssistantX_v2\Library AssistantX_V2.exe</outfile>
+  <errTitle>My application require Java ... Please Install Java</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>I:\PROGRAM\JavaFX\Library AssistantX\src\resources\icon.ico</icon>
+  <singleInstance>
+    <mutexName>LibraryAssistanceX</mutexName>
+    <windowTitle>Library AssistanceX</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.1.0.0</fileVersion>
+    <txtFileVersion>1.1.0.0</txtFileVersion>
+    <fileDescription>Added New  Features</fileDescription>
+    <copyright>AshleshKhajbage</copyright>
+    <productVersion>1.1.0.0</productVersion>
+    <txtProductVersion>1.1.0.0</txtProductVersion>
+    <productName>LibraryAssitantX</productName>
+    <companyName>AshleshKhajbage</companyName>
+    <internalName>LibraryAssistantX_V2</internalName>
+    <originalFilename>LibraryAssistantX_V2.exe</originalFilename>
+    <trademarks>swag</trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
