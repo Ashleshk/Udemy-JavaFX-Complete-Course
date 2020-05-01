@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="442.0" prefWidth="637.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.View">
+   <children>
+      <Label fx:id="cong" layoutX="224.0" layoutY="27.0" text="Congratulations " textFill="#eb3b3b">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="eli" layoutX="130.0" layoutY="302.0" text="You have successfully completed Java Quiz game">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="home" layoutX="228.0" layoutY="356.0" onAction="#goToHome" prefHeight="40.0" prefWidth="170.0" stylesheets="@../CSS/button.css" text="Go to Home">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="Marks" layoutX="335.0" layoutY="254.0" text="/30">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="226.0" fitWidth="219.0" layoutX="205.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/giphy-downsized.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="197.0" layoutY="254.0" text="Your Score is">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+
+
+.pagination {
+    -fx-border-color: black;
+}
+
+.pagination .page {
+    -fx-background-color: beige;
+}
+
+.pagination .pagination-control {
+    -fx-background-color: lightgray;
+}
+
+.pagination .pagination-control .bullet-button {
+    -fx-background-color: transparent, gray, gray, white, white;
+}
+
+.pagination .pagination-control .bullet-button:selected {
+    -fx-background-color: transparent, gray, gray, white, black;
+}
+
+.pagination .pagination-control .left-arrow,.right-arrow {
+    -fx-background-color: black, black;
+}
+
+#txt
+{
+	-fx-text-fill: white;
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="840.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controllers.Model">
+   <children>
+      <AnchorPane fx:id="quizView" layoutX="39.0" layoutY="209.0" prefHeight="372.0" prefWidth="760.0" />
+      <AnchorPane fx:id="countDown" layoutX="576.0" layoutY="126.0" prefHeight="72.0" prefWidth="220.0" />
+      <Pane layoutX="45.0" layoutY="14.0" prefHeight="104.0" prefWidth="751.0" style="-fx-border-color: #000000;">
+         <children>
+            <Label layoutX="43.0" layoutY="8.0" text="Questions">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <HBox layoutX="43.0" layoutY="47.0" prefHeight="35.0" prefWidth="634.0" spacing="25.0">
+               <children>
+                  <JFXButton fx:id="q1" onAction="#q1Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="1" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q2" onAction="#q2Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="2" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q3" onAction="#q3Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="3" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q4" onAction="#q4Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="4" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q5" onAction="#q5Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="5" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q6" onAction="#q6Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="6" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q7" onAction="#q7Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="7" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q8" onAction="#q8Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="8" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q9" onAction="#q9Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="9" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="q10" onAction="#q10Action" prefHeight="35.0" prefWidth="45.0" style="-fx-border-color: #ADB6C3;" text="10" textFill="#adb6c3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

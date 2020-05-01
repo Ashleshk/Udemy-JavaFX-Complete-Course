@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="343.0" prefWidth="760.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controllers.JavaQuizController">
+   <children>
+      <Pane prefHeight="372.0" prefWidth="760.0" style="-fx-border-color: #000000;">
+         <children>
+            <Text fx:id="qNo" layoutX="31.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q.1 |">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fx:id="questions" layoutX="85.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="write Question">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <JFXRadioButton fx:id="b1" layoutX="50.0" layoutY="112.0" onAction="#groupAction" text="A )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b4" layoutX="50.0" layoutY="231.0" onAction="#groupAction" text="D )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b3" layoutX="50.0" layoutY="191.0" onAction="#groupAction" text="C )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b2" layoutX="50.0" layoutY="151.0" onAction="#groupAction" text="B )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXButton fx:id="bbnxt" layoutX="57.0" layoutY="299.0" onAction="#btnNext" prefHeight="34.0" prefWidth="157.0" text="Save &amp; Continue">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+               <stylesheets>
+                  <URL value="@../CSS/Main.css" />
+                  <URL value="@../CSS/button.css" />
+               </stylesheets>
+            </JFXButton>
+            <JFXButton fx:id="sumbmit" layoutX="256.0" layoutY="299.0" onAction="#sumbitQuiz" prefHeight="34.0" prefWidth="157.0" text="Finish attempt">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+               <stylesheets>
+                  <URL value="@../CSS/Main.css" />
+                  <URL value="@../CSS/button.css" />
+               </stylesheets>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

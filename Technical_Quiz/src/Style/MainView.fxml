@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anPane" prefHeight="412.0" prefWidth="640.0" stylesheets="@../CSS/Main.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controllers.MainController">
+   <children>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="572.0" layoutY="29.0" onAction="#closeApp" prefHeight="50.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="47.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/icons8-close-window-48.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="round1" layoutX="201.0" layoutY="305.0" onAction="#roundOneAction" prefHeight="50.0" prefWidth="249.0" style="-fx-background-color: #f45d49;" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="245.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start the Round" wrappingWidth="168.13671875">
+         <font>
+            <Font name="SansSerif Bold" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="112.0" fitWidth="249.0" layoutX="192.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/Group4.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
