@@ -1,0 +1,21 @@
+ 
+
+#btn
+{
+	-fx-text-fill:crimson;
+	-fx-background-color:#FFF;
+	-fx-padding:10 10 10 10;
+	-fx-background-radius:10 10 10 10;
+	-fx-border-color:#f4f4;
+	-fx-border-wdith:10px;
+}
+
+#btn:hover
+{
+	-fx-background-color:#333;
+	-fx-text-fill:#fff;
+}
+#btn:pressed
+{
+-fx-padding:10 10 13 15;
+}
