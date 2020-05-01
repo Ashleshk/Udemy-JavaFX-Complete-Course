@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="With_scene_builder.Controller">
+   <children>
+      <JFXTextField fx:id="usr" focusColor="#f09213cf" layoutX="116.0" layoutY="107.0" promptText="Username" unFocusColor="#70e826" />
+      <JFXPasswordField fx:id="pass" focusColor="#e8af20" layoutX="116.0" layoutY="200.0" promptText="Password" unFocusColor="#1bfa16" />
+      <JFXButton fx:id="btn" buttonType="RAISED" layoutX="117.0" layoutY="296.0" onAction="#eventbtn" prefHeight="31.0" prefWidth="169.0" style="-fx-background-color: #333;" textFill="#f2e5e5" />
+   </children>
+</AnchorPane>
