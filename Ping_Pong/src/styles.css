@@ -1,0 +1,45 @@
+.screen
+{
+     -fx-background-image: url("bg.png");
+	 -fx-background-size: cover;
+}
+
+.Welscreen{
+	
+	 -fx-background-image: url("main.png");
+	 -fx-background-size: cover;
+  
+}
+
+.header, .info, .score, .ball, .paddle
+{
+  -fx-fill: #9DFF0D;
+    
+}
+
+.score{
+	 -fx-font-family: 'Arial';
+}
+
+
+.header, .info
+{
+    -fx-font-family: 'Arcade Normal';
+    -fx-text-origin: top;
+}
+
+.header
+{
+    -fx-font-size: 48px;
+}
+
+.info
+{
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+}
+
+.score
+{
+    -fx-font-size: 32px;
+}
