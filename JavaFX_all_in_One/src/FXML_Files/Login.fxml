@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anPane" prefHeight="430.0" prefWidth="690.0" stylesheets="@../CSS_Files/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <Pane layoutX="80.0" layoutY="47.0" prefHeight="336.0" prefWidth="530.0" style="-fx-background-color: #fff;">
+         <children>
+            <JFXTextField fx:id="username" focusColor="#36c6ea" layoutX="40.0" layoutY="94.0" maxWidth="444.0" minWidth="444.0" prefHeight="31.0" prefWidth="444.0" promptText="EMAIL" unFocusColor="#2d4d54">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" focusColor="#36c6ea" layoutX="40.0" layoutY="160.0" maxWidth="444.0" minWidth="444.0" prefHeight="31.0" prefWidth="444.0" promptText="PASSWORD" unFocusColor="#2d3b55">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton layoutX="167.0" layoutY="213.0" text="FORGOT YOUR PASSWORD ?" textFill="#6e6262" underline="true">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="register" layoutY="268.0" onAction="#createregister" prefHeight="68.0" prefWidth="267.0" style="-fx-background-color: 2D3B55;" text="REGISTER" textFill="#796767">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="login" layoutX="267.0" layoutY="268.0" onAction="#createLogin" prefHeight="68.0" prefWidth="267.0" text="LOGIN" textFill="#fcfcfc">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="52.0" layoutY="24.0" prefHeight="38.0" prefWidth="109.0" style="-fx-border-radius: 20px;" text="L O G I N">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
