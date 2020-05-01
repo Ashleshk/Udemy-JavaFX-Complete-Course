@@ -1,0 +1,48 @@
+ 
+
+#pane
+{
+	-fx-background-color:#333;
+}
+
+#username
+{
+	-fx-text-fill:#fff;
+	-fx-font-size:15px;
+	
+}
+#password
+{
+	-fx-text-fill:#fff;
+	-fx-font-size:15px;
+	
+}
+#header
+{
+	-fx-text-fill:aqua;
+	-fx-font-size:30px;
+	
+}
+#btn
+{
+	-fx-text-fill:#fff;
+	-fx-background-color:coral;
+	-fx-padding:10 10 10 10;
+	-fx-background-radius:10 10 10 10;
+	 
+	-fx-font-size:15px;
+}
+
+#btn:hover
+{
+	-fx-background-color:#333;
+	-fx-text-fill:#fff;
+}
+#btn:pressed
+{
+-fx-padding:10 10 13 15;
+}
+#usr
+{
+	-fx-text-inner-color:#333;
+}
