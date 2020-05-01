@@ -1,0 +1,1 @@
+{"nDaysWithoutFine":14,"finePerDay":2.0,"username":"astro","password":"90c9d7bdfb9d0c5e66af97805a37e344db1ed038"}
