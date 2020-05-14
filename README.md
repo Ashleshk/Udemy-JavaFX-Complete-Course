@@ -45,4 +45,10 @@
 
 ### Others
 * Jar Files
+* ControlFx
+* FontAwesomeFx
+* jfoenix-jar
+* Joda-time
+* Recurrence
+* View
  
